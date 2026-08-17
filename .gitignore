@@ -1,6 +1,15 @@
-.DS_Store
-*.log
-.idea/
-.vscode/
-node_modules
-.env
+# Ignore everything in the WordPress root
+/*
+
+# Keep this .gitignore
+!/.gitignore
+
+# Keep Bieco custom PHP code
+!/bieco-core.php
+
+# Keep Bieco assets
+!/assets/
+!/assets/css/
+!/assets/js/
+!/assets/css/bieco.css
+!/assets/js/bieco.js
